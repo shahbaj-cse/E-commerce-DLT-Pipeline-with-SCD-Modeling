@@ -76,7 +76,8 @@ This diagram outlines the end-to-end flow of data through our Bronze, Silver, an
 - Deployed the DLT pipeline in **production mode** (clusters auto-terminate).  
 - Scheduled via Databricks Workflows:  
   - Trigger on file arrival in S3 or at a fixed daily time.  
-- Configured email alerts for pipeline success/failure.  
+- Configured email alerts for pipeline success/failure.
+  ![mail_notification](email_notification.jpg)  
 
 ---
 
